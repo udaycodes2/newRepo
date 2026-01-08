@@ -609,18 +609,69 @@ Date:   Thu Jan 8 20:45:11 2026 +0530
 C:\Users\udays\git demo\LocalRepo>git checkout main
 error: Your local changes to the following files would be overwritten by checkout:
         index.html
+        index.html
 Please commit your changes or stash them before you switch branches.
 Aborting
 
 C:\Users\udays\git demo\LocalRepo>git add .
 
+C:\Users\udays\git demo\LocalRepo>git add .
+
+C:\Users\udays\git demo\LocalRepo>git commit -m"Playing"
+C:\Users\udays\git demo\LocalRepo>git add .
+
+C:\Users\udays\git demo\LocalRepo>git commit -m"Playing"
+
+C:\Users\udays\git demo\LocalRepo>git commit -m"Playing"
 C:\Users\udays\git demo\LocalRepo>git commit -m"Playing"
 [feature1 46ea057] Playing
- 1 file changed, 1 insertion(+), 1 deletion(-)
+ 1 file changed, 1 insertion(+), 1 deletion(-)      
 
-C:\Users\udays\git demo\LocalRepo>git checkout main
+C:\Users\udays\git demo\LocalRepo>git checkout main 
 Switched to branch 'main'
-Your branch is ahead of 'origin/main' by 3 commits.
-  (use "git push" to publish your local commits)
+Your branch is ahead of 'origin/main' by 3 commits. 
+  (use "git push" to publish your local commits)    
 
-C:\Users\udays\git demo\LocalRepo> 
+C:\Users\udays\git demo\LocalRepo>git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 1.00 KiB | 343.00 KiB/s, done.
+Total 9 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/udaycodes2/newRepo.git        
+   bef3c33..b1d3973  main -> main
+
+C:\Users\udays\git demo\LocalRepo>git add gitnotes.t
+xt
+
+C:\Users\udays\git demo\LocalRepo>git push
+Everything up-to-date
+
+C:\Users\udays\git demo\LocalRepo>git status
+On branch main
+Your branch is up to date with 'origin/main'.       
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage) 
+        new file:   gitnotes.txt
+
+
+C:\Users\udays\git demo\LocalRepo>git commit -m"new 
+file"
+[main f2d6dbf] new file
+ 1 file changed, 626 insertions(+)
+ create mode 100644 gitnotes.txt
+
+C:\Users\udays\git demo\LocalRepo>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 3.45 KiB | 3.45 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/udaycodes2/newRepo.git
+   b1d3973..f2d6dbf  main -> main
+
+C:\Users\udays\git demo\LocalRepo>
